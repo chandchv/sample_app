@@ -1,6 +1,6 @@
 class PagesController < ApplicationController
   def home
-   @title = "Home_news"
+   @title = "Home"
   end
 
   def contact
@@ -12,6 +12,6 @@ class PagesController < ApplicationController
   end
 
   def help
-  # @title = "Help_Needed"
+   @title = "Help"
   end
 end
